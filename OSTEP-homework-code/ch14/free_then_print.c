@@ -6,10 +6,10 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-    int *x = (int*) malloc(sizeof(int));
-    *x = 1;
-    printf("x=%d", *x);
-    x = NULL;
+    int *x = (int*) malloc(100 * sizeof(int));
     free(x);
+    int  *y = x;
+    y += 10;
+    printf("x[10]=%d\n", *y);
     return 0;
 }

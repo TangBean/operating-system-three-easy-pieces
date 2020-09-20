@@ -115,6 +115,6 @@ l main              # 看main函数
 ---
 
 参考：
-[1] [使用LLDB调试程序](https://casatwy.com/shi-yong-lldbdiao-shi-cheng-xu.html)
-[2] [LLDB调试器使用简介](http://southpeak.github.io/2015/01/25/tool-lldb/)
+1. [使用LLDB调试程序](https://casatwy.com/shi-yong-lldbdiao-shi-cheng-xu.html)
+2. [LLDB调试器使用简介](http://southpeak.github.io/2015/01/25/tool-lldb/)
 

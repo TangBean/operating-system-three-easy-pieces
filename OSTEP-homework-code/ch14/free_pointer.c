@@ -6,10 +6,9 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-    int *x = (int*) malloc(sizeof(int));
-    *x = 1;
-    printf("x=%d", *x);
-    x = NULL;
-    free(x);
+    int data[100];
+    data[4] = 10;
+    printf("data[4]=%d\n", data[4]);
+    free(&data[4]);
     return 0;
 }
